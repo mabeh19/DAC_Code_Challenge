@@ -1,0 +1,8 @@
+900 Pull source {100}
+800 Publish results {700,601,608,603}
+700 Register build stats {100}
+601 Run Test 1 {200}
+608 Run Test 2 {200}
+603 Run Test 3 {200}
+200 Compile Source {900}
+100 Create build tag {}

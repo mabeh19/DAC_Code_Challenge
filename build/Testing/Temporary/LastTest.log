@@ -1,0 +1,59 @@
+Start testing: Feb 08 20:26 CET
+----------------------------------------------------------
+1/1 Testing: solve_dependencies
+1/1 Test: solve_dependencies
+Command: "/home/mathias/Documents/C++/DAC_Code_Challenge/build/solve_dependencies"
+Directory: /home/mathias/Documents/C++/DAC_Code_Challenge/build
+"solve_dependencies" start time: Feb 08 20:26 CET
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from ParserTests
+[ RUN      ] ParserTests.StringToIDTest
+Token: 100
+Token: 200
+Token: 300
+Token: 400
+[       OK ] ParserTests.StringToIDTest (0 ms)
+[ RUN      ] ParserTests.SplitLineTest
+Token: 100
+Token: build
+Token: thing
+Token: [200,300,400]
+[       OK ] ParserTests.SplitLineTest (0 ms)
+[ RUN      ] ParserTests.ParseLineTest
+100 build [200,300,400]
+Token: 100
+Token: build
+Token: [200,300,400]
+Token: 200
+Token: 300
+Token: 400
+[       OK ] ParserTests.ParseLineTest (0 ms)
+[ RUN      ] ParserTests.ParseFileTest
+100 build []
+Token: 100
+Token: build
+Token: []
+Token: 
+200 link [100]
+Token: 200
+Token: link
+Token: [100]
+Token: 100
+[       OK ] ParserTests.ParseFileTest (0 ms)
+[----------] 4 tests from ParserTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"solve_dependencies" end time: Feb 08 20:26 CET
+"solve_dependencies" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 08 20:26 CET
