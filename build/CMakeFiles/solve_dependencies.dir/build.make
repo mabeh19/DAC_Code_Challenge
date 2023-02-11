@@ -69,92 +69,92 @@ include CMakeFiles/solve_dependencies.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/solve_dependencies.dir/flags.make
 
-CMakeFiles/solve_dependencies.dir/main.cpp.o: CMakeFiles/solve_dependencies.dir/flags.make
-CMakeFiles/solve_dependencies.dir/main.cpp.o: /home/mathias/Documents/C++/DAC_Code_Challenge/main.cpp
-CMakeFiles/solve_dependencies.dir/main.cpp.o: CMakeFiles/solve_dependencies.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/solve_dependencies.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solve_dependencies.dir/main.cpp.o -MF CMakeFiles/solve_dependencies.dir/main.cpp.o.d -o CMakeFiles/solve_dependencies.dir/main.cpp.o -c /home/mathias/Documents/C++/DAC_Code_Challenge/main.cpp
+CMakeFiles/solve_dependencies.dir/source/main.cpp.o: CMakeFiles/solve_dependencies.dir/flags.make
+CMakeFiles/solve_dependencies.dir/source/main.cpp.o: /home/mathias/Documents/C++/DAC_Code_Challenge/source/main.cpp
+CMakeFiles/solve_dependencies.dir/source/main.cpp.o: CMakeFiles/solve_dependencies.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/solve_dependencies.dir/source/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solve_dependencies.dir/source/main.cpp.o -MF CMakeFiles/solve_dependencies.dir/source/main.cpp.o.d -o CMakeFiles/solve_dependencies.dir/source/main.cpp.o -c /home/mathias/Documents/C++/DAC_Code_Challenge/source/main.cpp
 
-CMakeFiles/solve_dependencies.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solve_dependencies.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mathias/Documents/C++/DAC_Code_Challenge/main.cpp > CMakeFiles/solve_dependencies.dir/main.cpp.i
+CMakeFiles/solve_dependencies.dir/source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solve_dependencies.dir/source/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mathias/Documents/C++/DAC_Code_Challenge/source/main.cpp > CMakeFiles/solve_dependencies.dir/source/main.cpp.i
 
-CMakeFiles/solve_dependencies.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solve_dependencies.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mathias/Documents/C++/DAC_Code_Challenge/main.cpp -o CMakeFiles/solve_dependencies.dir/main.cpp.s
+CMakeFiles/solve_dependencies.dir/source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solve_dependencies.dir/source/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mathias/Documents/C++/DAC_Code_Challenge/source/main.cpp -o CMakeFiles/solve_dependencies.dir/source/main.cpp.s
 
-CMakeFiles/solve_dependencies.dir/job.cpp.o: CMakeFiles/solve_dependencies.dir/flags.make
-CMakeFiles/solve_dependencies.dir/job.cpp.o: /home/mathias/Documents/C++/DAC_Code_Challenge/job.cpp
-CMakeFiles/solve_dependencies.dir/job.cpp.o: CMakeFiles/solve_dependencies.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/solve_dependencies.dir/job.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solve_dependencies.dir/job.cpp.o -MF CMakeFiles/solve_dependencies.dir/job.cpp.o.d -o CMakeFiles/solve_dependencies.dir/job.cpp.o -c /home/mathias/Documents/C++/DAC_Code_Challenge/job.cpp
+CMakeFiles/solve_dependencies.dir/source/job/job.cpp.o: CMakeFiles/solve_dependencies.dir/flags.make
+CMakeFiles/solve_dependencies.dir/source/job/job.cpp.o: /home/mathias/Documents/C++/DAC_Code_Challenge/source/job/job.cpp
+CMakeFiles/solve_dependencies.dir/source/job/job.cpp.o: CMakeFiles/solve_dependencies.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/solve_dependencies.dir/source/job/job.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solve_dependencies.dir/source/job/job.cpp.o -MF CMakeFiles/solve_dependencies.dir/source/job/job.cpp.o.d -o CMakeFiles/solve_dependencies.dir/source/job/job.cpp.o -c /home/mathias/Documents/C++/DAC_Code_Challenge/source/job/job.cpp
 
-CMakeFiles/solve_dependencies.dir/job.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solve_dependencies.dir/job.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mathias/Documents/C++/DAC_Code_Challenge/job.cpp > CMakeFiles/solve_dependencies.dir/job.cpp.i
+CMakeFiles/solve_dependencies.dir/source/job/job.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solve_dependencies.dir/source/job/job.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mathias/Documents/C++/DAC_Code_Challenge/source/job/job.cpp > CMakeFiles/solve_dependencies.dir/source/job/job.cpp.i
 
-CMakeFiles/solve_dependencies.dir/job.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solve_dependencies.dir/job.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mathias/Documents/C++/DAC_Code_Challenge/job.cpp -o CMakeFiles/solve_dependencies.dir/job.cpp.s
+CMakeFiles/solve_dependencies.dir/source/job/job.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solve_dependencies.dir/source/job/job.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mathias/Documents/C++/DAC_Code_Challenge/source/job/job.cpp -o CMakeFiles/solve_dependencies.dir/source/job/job.cpp.s
 
-CMakeFiles/solve_dependencies.dir/jobsolver.cpp.o: CMakeFiles/solve_dependencies.dir/flags.make
-CMakeFiles/solve_dependencies.dir/jobsolver.cpp.o: /home/mathias/Documents/C++/DAC_Code_Challenge/jobsolver.cpp
-CMakeFiles/solve_dependencies.dir/jobsolver.cpp.o: CMakeFiles/solve_dependencies.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/solve_dependencies.dir/jobsolver.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solve_dependencies.dir/jobsolver.cpp.o -MF CMakeFiles/solve_dependencies.dir/jobsolver.cpp.o.d -o CMakeFiles/solve_dependencies.dir/jobsolver.cpp.o -c /home/mathias/Documents/C++/DAC_Code_Challenge/jobsolver.cpp
+CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.o: CMakeFiles/solve_dependencies.dir/flags.make
+CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.o: /home/mathias/Documents/C++/DAC_Code_Challenge/source/jobsolver/jobsolver.cpp
+CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.o: CMakeFiles/solve_dependencies.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.o -MF CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.o.d -o CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.o -c /home/mathias/Documents/C++/DAC_Code_Challenge/source/jobsolver/jobsolver.cpp
 
-CMakeFiles/solve_dependencies.dir/jobsolver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solve_dependencies.dir/jobsolver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mathias/Documents/C++/DAC_Code_Challenge/jobsolver.cpp > CMakeFiles/solve_dependencies.dir/jobsolver.cpp.i
+CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mathias/Documents/C++/DAC_Code_Challenge/source/jobsolver/jobsolver.cpp > CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.i
 
-CMakeFiles/solve_dependencies.dir/jobsolver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solve_dependencies.dir/jobsolver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mathias/Documents/C++/DAC_Code_Challenge/jobsolver.cpp -o CMakeFiles/solve_dependencies.dir/jobsolver.cpp.s
+CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mathias/Documents/C++/DAC_Code_Challenge/source/jobsolver/jobsolver.cpp -o CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.s
 
-CMakeFiles/solve_dependencies.dir/group.cpp.o: CMakeFiles/solve_dependencies.dir/flags.make
-CMakeFiles/solve_dependencies.dir/group.cpp.o: /home/mathias/Documents/C++/DAC_Code_Challenge/group.cpp
-CMakeFiles/solve_dependencies.dir/group.cpp.o: CMakeFiles/solve_dependencies.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/solve_dependencies.dir/group.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solve_dependencies.dir/group.cpp.o -MF CMakeFiles/solve_dependencies.dir/group.cpp.o.d -o CMakeFiles/solve_dependencies.dir/group.cpp.o -c /home/mathias/Documents/C++/DAC_Code_Challenge/group.cpp
+CMakeFiles/solve_dependencies.dir/source/group/group.cpp.o: CMakeFiles/solve_dependencies.dir/flags.make
+CMakeFiles/solve_dependencies.dir/source/group/group.cpp.o: /home/mathias/Documents/C++/DAC_Code_Challenge/source/group/group.cpp
+CMakeFiles/solve_dependencies.dir/source/group/group.cpp.o: CMakeFiles/solve_dependencies.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/solve_dependencies.dir/source/group/group.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solve_dependencies.dir/source/group/group.cpp.o -MF CMakeFiles/solve_dependencies.dir/source/group/group.cpp.o.d -o CMakeFiles/solve_dependencies.dir/source/group/group.cpp.o -c /home/mathias/Documents/C++/DAC_Code_Challenge/source/group/group.cpp
 
-CMakeFiles/solve_dependencies.dir/group.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solve_dependencies.dir/group.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mathias/Documents/C++/DAC_Code_Challenge/group.cpp > CMakeFiles/solve_dependencies.dir/group.cpp.i
+CMakeFiles/solve_dependencies.dir/source/group/group.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solve_dependencies.dir/source/group/group.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mathias/Documents/C++/DAC_Code_Challenge/source/group/group.cpp > CMakeFiles/solve_dependencies.dir/source/group/group.cpp.i
 
-CMakeFiles/solve_dependencies.dir/group.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solve_dependencies.dir/group.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mathias/Documents/C++/DAC_Code_Challenge/group.cpp -o CMakeFiles/solve_dependencies.dir/group.cpp.s
+CMakeFiles/solve_dependencies.dir/source/group/group.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solve_dependencies.dir/source/group/group.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mathias/Documents/C++/DAC_Code_Challenge/source/group/group.cpp -o CMakeFiles/solve_dependencies.dir/source/group/group.cpp.s
 
-CMakeFiles/solve_dependencies.dir/parser.cpp.o: CMakeFiles/solve_dependencies.dir/flags.make
-CMakeFiles/solve_dependencies.dir/parser.cpp.o: /home/mathias/Documents/C++/DAC_Code_Challenge/parser.cpp
-CMakeFiles/solve_dependencies.dir/parser.cpp.o: CMakeFiles/solve_dependencies.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/solve_dependencies.dir/parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solve_dependencies.dir/parser.cpp.o -MF CMakeFiles/solve_dependencies.dir/parser.cpp.o.d -o CMakeFiles/solve_dependencies.dir/parser.cpp.o -c /home/mathias/Documents/C++/DAC_Code_Challenge/parser.cpp
+CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.o: CMakeFiles/solve_dependencies.dir/flags.make
+CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.o: /home/mathias/Documents/C++/DAC_Code_Challenge/source/parser/parser.cpp
+CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.o: CMakeFiles/solve_dependencies.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.o -MF CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.o.d -o CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.o -c /home/mathias/Documents/C++/DAC_Code_Challenge/source/parser/parser.cpp
 
-CMakeFiles/solve_dependencies.dir/parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solve_dependencies.dir/parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mathias/Documents/C++/DAC_Code_Challenge/parser.cpp > CMakeFiles/solve_dependencies.dir/parser.cpp.i
+CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mathias/Documents/C++/DAC_Code_Challenge/source/parser/parser.cpp > CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.i
 
-CMakeFiles/solve_dependencies.dir/parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solve_dependencies.dir/parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mathias/Documents/C++/DAC_Code_Challenge/parser.cpp -o CMakeFiles/solve_dependencies.dir/parser.cpp.s
+CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mathias/Documents/C++/DAC_Code_Challenge/source/parser/parser.cpp -o CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.s
 
 # Object files for target solve_dependencies
 solve_dependencies_OBJECTS = \
-"CMakeFiles/solve_dependencies.dir/main.cpp.o" \
-"CMakeFiles/solve_dependencies.dir/job.cpp.o" \
-"CMakeFiles/solve_dependencies.dir/jobsolver.cpp.o" \
-"CMakeFiles/solve_dependencies.dir/group.cpp.o" \
-"CMakeFiles/solve_dependencies.dir/parser.cpp.o"
+"CMakeFiles/solve_dependencies.dir/source/main.cpp.o" \
+"CMakeFiles/solve_dependencies.dir/source/job/job.cpp.o" \
+"CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.o" \
+"CMakeFiles/solve_dependencies.dir/source/group/group.cpp.o" \
+"CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.o"
 
 # External object files for target solve_dependencies
 solve_dependencies_EXTERNAL_OBJECTS =
 
-solve_dependencies: CMakeFiles/solve_dependencies.dir/main.cpp.o
-solve_dependencies: CMakeFiles/solve_dependencies.dir/job.cpp.o
-solve_dependencies: CMakeFiles/solve_dependencies.dir/jobsolver.cpp.o
-solve_dependencies: CMakeFiles/solve_dependencies.dir/group.cpp.o
-solve_dependencies: CMakeFiles/solve_dependencies.dir/parser.cpp.o
+solve_dependencies: CMakeFiles/solve_dependencies.dir/source/main.cpp.o
+solve_dependencies: CMakeFiles/solve_dependencies.dir/source/job/job.cpp.o
+solve_dependencies: CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.o
+solve_dependencies: CMakeFiles/solve_dependencies.dir/source/group/group.cpp.o
+solve_dependencies: CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.o
 solve_dependencies: CMakeFiles/solve_dependencies.dir/build.make
 solve_dependencies: gtest/src/gtest-build/lib/libgtest.a
 solve_dependencies: gtest/src/gtest-build/lib/libgtest_main.a

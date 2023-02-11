@@ -1,7 +1,7 @@
 #pragma once
 #include <exception>
 #include <string>
-#include "job.hpp"
+#include "../job/job.hpp"
 
 #define BAD_FILE_MSG  "Bad file"
 

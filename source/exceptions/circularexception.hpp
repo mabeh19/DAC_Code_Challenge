@@ -1,7 +1,7 @@
 #pragma once
 #include <exception>
 #include <string>
-#include "job.hpp"
+#include "../job/job.hpp"
 
 #define ERR_MSG  "Circular dependency detected"
 

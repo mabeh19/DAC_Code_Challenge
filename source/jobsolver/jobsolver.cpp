@@ -1,5 +1,5 @@
 #include "jobsolver.hpp"
-#include "circularexception.hpp"
+#include "../exceptions/circularexception.hpp"
 
 namespace DAC
 {

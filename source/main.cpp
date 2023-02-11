@@ -6,11 +6,11 @@
 #include "gtest/gtest.h"
 #endif /* TEST */
 
-#include "parser.hpp"
-#include "jobsolver.hpp"
-#include "job.hpp"
-#include "circularexception.hpp"
-#include "badfileexception.hpp"
+#include "parser/parser.hpp"
+#include "jobsolver/jobsolver.hpp"
+#include "job/job.hpp"
+#include "exceptions/circularexception.hpp"
+#include "exceptions/badfileexception.hpp"
 
 int main(int argc, char* argv[])
 {
@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
         return RUN_ALL_TESTS();
 
 #else
-const char* file = "../test2.txt";
+const char* file = "../tests/test2.txt";
         
         if (argc > 1) {
                 file = argv[1];
@@ -81,7 +81,7 @@ TEST(ParserTests, ParseLineTest)
 
 TEST(ParserTests, ParseFileTest)
 {
-        const char* path = "/home/mathias/Documents/C++/DAC_Code_Challenge/test1.txt";
+        const char* path = "../tests/test1.txt";
         int linkDeps[] = {100};
         auto correctBuildDeps = std::vector<ID>();
         auto correctLinkDeps = std::vector<ID>(std::begin(linkDeps), std::end(linkDeps));

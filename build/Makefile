@@ -152,125 +152,125 @@ solve_dependencies/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/build
 .PHONY : solve_dependencies/fast
 
-group.o: group.cpp.o
-.PHONY : group.o
+source/group/group.o: source/group/group.cpp.o
+.PHONY : source/group/group.o
 
 # target to build an object file
-group.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/group.cpp.o
-.PHONY : group.cpp.o
+source/group/group.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/group/group.cpp.o
+.PHONY : source/group/group.cpp.o
 
-group.i: group.cpp.i
-.PHONY : group.i
+source/group/group.i: source/group/group.cpp.i
+.PHONY : source/group/group.i
 
 # target to preprocess a source file
-group.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/group.cpp.i
-.PHONY : group.cpp.i
+source/group/group.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/group/group.cpp.i
+.PHONY : source/group/group.cpp.i
 
-group.s: group.cpp.s
-.PHONY : group.s
+source/group/group.s: source/group/group.cpp.s
+.PHONY : source/group/group.s
 
 # target to generate assembly for a file
-group.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/group.cpp.s
-.PHONY : group.cpp.s
+source/group/group.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/group/group.cpp.s
+.PHONY : source/group/group.cpp.s
 
-job.o: job.cpp.o
-.PHONY : job.o
+source/job/job.o: source/job/job.cpp.o
+.PHONY : source/job/job.o
 
 # target to build an object file
-job.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/job.cpp.o
-.PHONY : job.cpp.o
+source/job/job.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/job/job.cpp.o
+.PHONY : source/job/job.cpp.o
 
-job.i: job.cpp.i
-.PHONY : job.i
+source/job/job.i: source/job/job.cpp.i
+.PHONY : source/job/job.i
 
 # target to preprocess a source file
-job.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/job.cpp.i
-.PHONY : job.cpp.i
+source/job/job.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/job/job.cpp.i
+.PHONY : source/job/job.cpp.i
 
-job.s: job.cpp.s
-.PHONY : job.s
+source/job/job.s: source/job/job.cpp.s
+.PHONY : source/job/job.s
 
 # target to generate assembly for a file
-job.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/job.cpp.s
-.PHONY : job.cpp.s
+source/job/job.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/job/job.cpp.s
+.PHONY : source/job/job.cpp.s
 
-jobsolver.o: jobsolver.cpp.o
-.PHONY : jobsolver.o
+source/jobsolver/jobsolver.o: source/jobsolver/jobsolver.cpp.o
+.PHONY : source/jobsolver/jobsolver.o
 
 # target to build an object file
-jobsolver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/jobsolver.cpp.o
-.PHONY : jobsolver.cpp.o
+source/jobsolver/jobsolver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.o
+.PHONY : source/jobsolver/jobsolver.cpp.o
 
-jobsolver.i: jobsolver.cpp.i
-.PHONY : jobsolver.i
+source/jobsolver/jobsolver.i: source/jobsolver/jobsolver.cpp.i
+.PHONY : source/jobsolver/jobsolver.i
 
 # target to preprocess a source file
-jobsolver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/jobsolver.cpp.i
-.PHONY : jobsolver.cpp.i
+source/jobsolver/jobsolver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.i
+.PHONY : source/jobsolver/jobsolver.cpp.i
 
-jobsolver.s: jobsolver.cpp.s
-.PHONY : jobsolver.s
+source/jobsolver/jobsolver.s: source/jobsolver/jobsolver.cpp.s
+.PHONY : source/jobsolver/jobsolver.s
 
 # target to generate assembly for a file
-jobsolver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/jobsolver.cpp.s
-.PHONY : jobsolver.cpp.s
+source/jobsolver/jobsolver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.s
+.PHONY : source/jobsolver/jobsolver.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+source/main.o: source/main.cpp.o
+.PHONY : source/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/main.cpp.o
-.PHONY : main.cpp.o
+source/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/main.cpp.o
+.PHONY : source/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+source/main.i: source/main.cpp.i
+.PHONY : source/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/main.cpp.i
-.PHONY : main.cpp.i
+source/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/main.cpp.i
+.PHONY : source/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+source/main.s: source/main.cpp.s
+.PHONY : source/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/main.cpp.s
-.PHONY : main.cpp.s
+source/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/main.cpp.s
+.PHONY : source/main.cpp.s
 
-parser.o: parser.cpp.o
-.PHONY : parser.o
+source/parser/parser.o: source/parser/parser.cpp.o
+.PHONY : source/parser/parser.o
 
 # target to build an object file
-parser.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/parser.cpp.o
-.PHONY : parser.cpp.o
+source/parser/parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.o
+.PHONY : source/parser/parser.cpp.o
 
-parser.i: parser.cpp.i
-.PHONY : parser.i
+source/parser/parser.i: source/parser/parser.cpp.i
+.PHONY : source/parser/parser.i
 
 # target to preprocess a source file
-parser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/parser.cpp.i
-.PHONY : parser.cpp.i
+source/parser/parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.i
+.PHONY : source/parser/parser.cpp.i
 
-parser.s: parser.cpp.s
-.PHONY : parser.s
+source/parser/parser.s: source/parser/parser.cpp.s
+.PHONY : source/parser/parser.s
 
 # target to generate assembly for a file
-parser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/parser.cpp.s
-.PHONY : parser.cpp.s
+source/parser/parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solve_dependencies.dir/build.make CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.s
+.PHONY : source/parser/parser.cpp.s
 
 # Help Target
 help:
@@ -283,21 +283,21 @@ help:
 	@echo "... test"
 	@echo "... gtest"
 	@echo "... solve_dependencies"
-	@echo "... group.o"
-	@echo "... group.i"
-	@echo "... group.s"
-	@echo "... job.o"
-	@echo "... job.i"
-	@echo "... job.s"
-	@echo "... jobsolver.o"
-	@echo "... jobsolver.i"
-	@echo "... jobsolver.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... parser.o"
-	@echo "... parser.i"
-	@echo "... parser.s"
+	@echo "... source/group/group.o"
+	@echo "... source/group/group.i"
+	@echo "... source/group/group.s"
+	@echo "... source/job/job.o"
+	@echo "... source/job/job.i"
+	@echo "... source/job/job.s"
+	@echo "... source/jobsolver/jobsolver.o"
+	@echo "... source/jobsolver/jobsolver.i"
+	@echo "... source/jobsolver/jobsolver.s"
+	@echo "... source/main.o"
+	@echo "... source/main.i"
+	@echo "... source/main.s"
+	@echo "... source/parser/parser.o"
+	@echo "... source/parser/parser.i"
+	@echo "... source/parser/parser.s"
 .PHONY : help
 
 

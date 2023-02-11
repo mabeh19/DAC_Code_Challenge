@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mathias/Documents/C++/DAC_Code_Challenge/group.cpp" "CMakeFiles/solve_dependencies.dir/group.cpp.o" "gcc" "CMakeFiles/solve_dependencies.dir/group.cpp.o.d"
-  "/home/mathias/Documents/C++/DAC_Code_Challenge/job.cpp" "CMakeFiles/solve_dependencies.dir/job.cpp.o" "gcc" "CMakeFiles/solve_dependencies.dir/job.cpp.o.d"
-  "/home/mathias/Documents/C++/DAC_Code_Challenge/jobsolver.cpp" "CMakeFiles/solve_dependencies.dir/jobsolver.cpp.o" "gcc" "CMakeFiles/solve_dependencies.dir/jobsolver.cpp.o.d"
-  "/home/mathias/Documents/C++/DAC_Code_Challenge/main.cpp" "CMakeFiles/solve_dependencies.dir/main.cpp.o" "gcc" "CMakeFiles/solve_dependencies.dir/main.cpp.o.d"
-  "/home/mathias/Documents/C++/DAC_Code_Challenge/parser.cpp" "CMakeFiles/solve_dependencies.dir/parser.cpp.o" "gcc" "CMakeFiles/solve_dependencies.dir/parser.cpp.o.d"
+  "/home/mathias/Documents/C++/DAC_Code_Challenge/source/group/group.cpp" "CMakeFiles/solve_dependencies.dir/source/group/group.cpp.o" "gcc" "CMakeFiles/solve_dependencies.dir/source/group/group.cpp.o.d"
+  "/home/mathias/Documents/C++/DAC_Code_Challenge/source/job/job.cpp" "CMakeFiles/solve_dependencies.dir/source/job/job.cpp.o" "gcc" "CMakeFiles/solve_dependencies.dir/source/job/job.cpp.o.d"
+  "/home/mathias/Documents/C++/DAC_Code_Challenge/source/jobsolver/jobsolver.cpp" "CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.o" "gcc" "CMakeFiles/solve_dependencies.dir/source/jobsolver/jobsolver.cpp.o.d"
+  "/home/mathias/Documents/C++/DAC_Code_Challenge/source/main.cpp" "CMakeFiles/solve_dependencies.dir/source/main.cpp.o" "gcc" "CMakeFiles/solve_dependencies.dir/source/main.cpp.o.d"
+  "/home/mathias/Documents/C++/DAC_Code_Challenge/source/parser/parser.cpp" "CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.o" "gcc" "CMakeFiles/solve_dependencies.dir/source/parser/parser.cpp.o.d"
   )
 
 # Targets to which this target links.

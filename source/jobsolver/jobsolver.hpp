@@ -3,8 +3,8 @@
 #include <vector>
 using namespace std;
 
-#include "group.hpp"
-#include "job.hpp"
+#include "../group/group.hpp"
+#include "../job/job.hpp"
 
 typedef std::vector<Group> Solution;
 

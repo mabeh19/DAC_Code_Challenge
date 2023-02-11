@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 project(DAC_Code_Challenge)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
 
 # GoogleTest
 include(ExternalProject)
@@ -16,11 +16,11 @@ message(STATUS "GTest binary dir = ${binary_dir}")
 
 
 set(SOURCES 
-        main.cpp 
-        job.cpp
-        jobsolver.cpp
-        group.cpp
-        parser.cpp
+        source/main.cpp 
+        source/job/job.cpp
+        source/jobsolver/jobsolver.cpp
+        source/group/group.cpp
+        source/parser/parser.cpp
 )
 
 add_executable(solve_dependencies ${SOURCES})

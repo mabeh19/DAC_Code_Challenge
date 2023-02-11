@@ -3,7 +3,7 @@
 #include <vector>
 #include <array>
 
-#include "parser.hpp"
+#include "../parser/parser.hpp"
 
 typedef int32_t ID;
 
