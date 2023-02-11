@@ -1,0 +1,13 @@
+# Target labels
+ gtest
+# Source files and their labels
+/home/mathias/Documents/C++/DAC_Code_Challenge/build/test/CMakeFiles/gtest
+/home/mathias/Documents/C++/DAC_Code_Challenge/build/test/CMakeFiles/gtest.rule
+/home/mathias/Documents/C++/DAC_Code_Challenge/build/test/CMakeFiles/gtest-complete.rule
+/home/mathias/Documents/C++/DAC_Code_Challenge/build/test/gtest/src/gtest-stamp/gtest-build.rule
+/home/mathias/Documents/C++/DAC_Code_Challenge/build/test/gtest/src/gtest-stamp/gtest-configure.rule
+/home/mathias/Documents/C++/DAC_Code_Challenge/build/test/gtest/src/gtest-stamp/gtest-download.rule
+/home/mathias/Documents/C++/DAC_Code_Challenge/build/test/gtest/src/gtest-stamp/gtest-install.rule
+/home/mathias/Documents/C++/DAC_Code_Challenge/build/test/gtest/src/gtest-stamp/gtest-mkdir.rule
+/home/mathias/Documents/C++/DAC_Code_Challenge/build/test/gtest/src/gtest-stamp/gtest-patch.rule
+/home/mathias/Documents/C++/DAC_Code_Challenge/build/test/gtest/src/gtest-stamp/gtest-update.rule

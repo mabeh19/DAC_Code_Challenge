@@ -1,5 +1,0 @@
-if(EXISTS "/home/mathias/Documents/C++/DAC_Code_Challenge/build/solve_dependencies[1]_tests.cmake")
-  include("/home/mathias/Documents/C++/DAC_Code_Challenge/build/solve_dependencies[1]_tests.cmake")
-else()
-  add_test(solve_dependencies_NOT_BUILT solve_dependencies_NOT_BUILT)
-endif()

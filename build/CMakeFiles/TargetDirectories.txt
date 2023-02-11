@@ -1,5 +1,0 @@
-/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles/gtest.dir
-/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles/solve_dependencies.dir
-/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles/test.dir
-/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles/edit_cache.dir
-/home/mathias/Documents/C++/DAC_Code_Challenge/build/CMakeFiles/rebuild_cache.dir
